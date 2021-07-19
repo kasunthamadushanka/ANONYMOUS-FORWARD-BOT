@@ -12,9 +12,9 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 async def start(client, message):
     buttons = [[
         InlineKeyboardButton('📜 Support Group', url='https://t.me/DxHelpDesk'),
-        InlineKeyboardButton('Update Channel ♻️', url='https://t.me/DX_Botz')
+        InlineKeyboardButton('📣 Update Channel 📣', url='https://t.me/epusthakalaya_bots')
     ],[
-        InlineKeyboardButton('SouceCode 💡', url='https://github.com/Jijinr/Frwdit')
+        InlineKeyboardButton('🗳 Souce Code 🗳', url='https://github.com/kasunthamadushanka/ANONYMOUS-FORWARD-BOT.git')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await client.send_message(
